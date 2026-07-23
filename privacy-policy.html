@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Pixel Crafted</title>
+<meta name="description" content="Privacy Notice for Pixel Crafted LLC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --orange: #E15B3F;
+    --teal: #17A589;
+    --charcoal: #2B2B2B;
+    --cream: #FBF3E7;
+    --white: #FFFFFF;
+    --gray: #6b6b6b;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--charcoal);
+    background: var(--white);
+    line-height: 1.65;
+  }
+
+  h1, h2, h3, .logo-text {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a { color: var(--teal); text-decoration: underline; }
+
+  a:hover { color: var(--orange); }
+
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Header (matches main site) */
+  header {
+    position: sticky;
+    top: 0;
+    background: var(--white);
+    z-index: 100;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+  }
+
+  .logo-mark {
+    position: relative;
+    width: 44px;
+    height: 44px;
+  }
+
+  .logo-mark .sq {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: var(--cream);
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .logo-mark .sq.p { background: var(--orange); top: 0; left: 0; }
+  .logo-mark .sq.c { background: var(--teal); bottom: 0; right: 0; box-shadow: 0 0 0 3px var(--white); }
+
+  .logo-text {
+    font-weight: 800;
+    font-size: 19px;
+    letter-spacing: -0.3px;
+    line-height: 1;
+    color: var(--charcoal);
+  }
+
+  .logo-text span { color: var(--orange); }
+
+  .back-link {
+    font-weight: 500;
+    font-size: 14.5px;
+    color: var(--charcoal);
+    text-decoration: none;
+  }
+
+  .back-link:hover { color: var(--teal); }
+
+  /* Policy content */
+  .policy {
+    padding: 70px 0 100px;
+  }
+
+  .policy .eyebrow {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 12px;
+  }
+
+  .policy h1 {
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  .policy .updated {
+    color: var(--gray);
+    font-size: 14.5px;
+    margin-bottom: 40px;
+  }
+
+  .policy h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 46px;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--cream);
+  }
+
+  .policy h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 26px;
+    margin-bottom: 10px;
+    color: var(--teal);
+  }
+
+  .policy p {
+    margin-bottom: 16px;
+    font-size: 15.5px;
+  }
+
+  .policy ul, .policy ol {
+    margin: 0 0 16px 22px;
+    font-size: 15.5px;
+  }
+
+  .policy li { margin-bottom: 8px; }
+
+  .policy strong { font-weight: 700; }
+
+  .toc {
+    background: var(--cream);
+    border-radius: 14px;
+    padding: 26px 30px;
+    margin-bottom: 20px;
+  }
+
+  .toc h2 {
+    margin-top: 0;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .toc ol {
+    margin-left: 20px;
+    columns: 1;
+  }
+
+  .toc a { text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+
+  .policy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 24px;
+    font-size: 14px;
+  }
+
+  .policy-table th, .policy-table td {
+    border: 1px solid #eee;
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .policy-table th {
+    background: var(--cream);
+    font-weight: 700;
+  }
+
+  .contact-block {
+    background: var(--cream);
+    border-radius: 14px;
+    padding: 24px 28px;
+    margin-top: 16px;
+  }
+
+  /* Footer (matches main site) */
+  footer {
+    background: var(--charcoal);
+    color: #cfcfcf;
+    padding: 36px 24px 28px;
+    text-align: center;
+    font-size: 13.5px;
+  }
+
+  .footer-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  footer .foot-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  footer .foot-logo .logo-text { color: var(--white); font-size: 16px; }
+
+  footer .logo-mark .sq.c { box-shadow: 0 0 0 3px var(--charcoal); }
+
+  .foot-logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .foot-tagline {
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--teal);
+    line-height: 1;
+    margin-top: 1px;
+  }
+
+  footer a { color: #cfcfcf; }
+  footer a:hover { color: var(--teal); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <a href="index.html#home" class="logo">
+      <div class="logo-mark">
+        <div class="sq p">P</div>
+        <div class="sq c">C</div>
+      </div>
+      <div class="logo-text">PIXEL<span>CRAFTED</span></div>
+    </a>
+    <a href="index.html" class="back-link">&larr; Back to home</a>
+  </div>
+</header>
+
+<section class="policy">
+  <div class="container">
+    <span class="eyebrow">Legal</span>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated July 22, 2026</p>
+
+    <p>This Privacy Notice for Pixel Crafted LLC ("<strong>we</strong>," "<strong>us</strong>," or "<strong>our</strong>"), describes how and why we might access, collect, store, use, and/or share ("<strong>process</strong>") your personal information when you use our services ("<strong>Services</strong>"), including when you:</p>
+    <ul>
+      <li>Download and use our mobile application, or any other application of ours that links to this Privacy Notice</li>
+      <li>Engage with us in other related ways, including any marketing or events</li>
+    </ul>
+    <p><strong>Questions or concerns?</strong> Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <a href="mailto:pixelcraftedllc@gmail.com">pixelcraftedllc@gmail.com</a>.</p>
+
+    <div class="toc" id="toc">
+      <h2>Summary of Key Points</h2>
+      <p><em>This summary provides key points from our Privacy Notice, but you can find out more details about any of these topics by using the table of contents below to find the section you are looking for.</em></p>
+
+      <p><strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with us and the Services, the choices you make, and the products and features you use. Learn more under <a href="#infocollect">What Information Do We Collect?</a></p>
+      <p><strong>Do we process any sensitive personal information?</strong> Some information may be considered "special" or "sensitive" in certain jurisdictions, for example your racial or ethnic origins, sexual orientation, and religious beliefs. We do not process sensitive personal information.</p>
+      <p><strong>Do we collect any information from third parties?</strong> We do not collect any information from third parties.</p>
+      <p><strong>How do we process your information?</strong> We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. Learn more under <a href="#infouse">How Do We Process Your Information?</a></p>
+      <p><strong>In what situations and with which parties do we share personal information?</strong> We may share information in specific situations and with specific categories of third parties. Learn more under <a href="#whoshare">When And With Whom Do We Share Your Personal Information?</a></p>
+      <p><strong>How do we keep your information safe?</strong> We have organizational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure. Learn more under <a href="#infosafe">How Do We Keep Your Information Safe?</a></p>
+      <p><strong>What are your rights?</strong> Depending on where you are located geographically, applicable privacy law may give you certain rights regarding your personal information. Learn more under <a href="#privacyrights">What Are Your Privacy Rights?</a></p>
+      <p><strong>How do you exercise your rights?</strong> The easiest way is by contacting us at <a href="mailto:pixelcraftedllc@gmail.com">pixelcraftedllc@gmail.com</a>. We will consider and act upon any request in accordance with applicable data protection laws.</p>
+
+      <h2>Table of Contents</h2>
+      <ol>
+        <li><a href="#infocollect">What Information Do We Collect?</a></li>
+        <li><a href="#infouse">How Do We Process Your Information?</a></li>
+        <li><a href="#legalbases">What Legal Bases Do We Rely On To Process Your Personal Information?</a></li>
+        <li><a href="#whoshare">When And With Whom Do We Share Your Personal Information?</a></li>
+        <li><a href="#thirdpartysites">What Is Our Stance On Third-Party Websites?</a></li>
+        <li><a href="#inforetain">How Long Do We Keep Your Information?</a></li>
+        <li><a href="#infosafe">How Do We Keep Your Information Safe?</a></li>
+        <li><a href="#infominors">Do We Collect Information From Minors?</a></li>
+        <li><a href="#privacyrights">What Are Your Privacy Rights?</a></li>
+        <li><a href="#dnt">Controls For Do-Not-Track Features</a></li>
+        <li><a href="#uslaws">Do United States Residents Have Specific Privacy Rights?</a></li>
+        <li><a href="#policyupdates">Do We Make Updates To This Notice?</a></li>
+        <li><a href="#contact">How Can You Contact Us About This Notice?</a></li>
+        <li><a href="#request">How Can You Review, Update, Or Delete The Data We Collect From You?</a></li>
+      </ol>
+    </div>
+
+    <h2 id="infocollect">1. What Information Do We Collect?</h2>
+
+    <h3>Personal information you disclose to us</h3>
+    <p><em>In short: We collect personal information that you provide to us.</em></p>
+    <p>We collect personal information that you voluntarily provide to us when you express an interest in obtaining information about us or our products and Services, when you participate in activities on the Services, or otherwise when you contact us.</p>
+    <p><strong>Sensitive Information.</strong> We do not process sensitive information.</p>
+    <p><strong>Payment Data.</strong> We may collect data necessary to process your payment if you choose to make purchases, such as your payment instrument number and the security code associated with your payment instrument. All payment data is handled and stored by Apple. You may find their privacy notice here: <a href="https://www.apple.com/legal/privacy/en-ww/" target="_blank" rel="noopener">apple.com/legal/privacy</a>.</p>
+    <p><strong>Application Data.</strong> If you use our application(s), we may also collect the following information if you choose to provide us with access or permission:</p>
+    <ul>
+      <li><em>Mobile Device Data.</em> We automatically collect device information (such as your mobile device ID, model, and manufacturer), operating system, version and system configuration information, device and application identification numbers, browser type and version, hardware model, Internet service provider and/or mobile carrier, and Internet Protocol (IP) address (or proxy server). We may also collect information about the phone network associated with your device and the features of our application(s) you accessed.</li>
+    </ul>
+    <p>This information is primarily needed to maintain the security and operation of our application(s), for troubleshooting, and for our internal analytics and reporting purposes.</p>
+    <p>All personal information that you provide to us must be true, complete, and accurate, and you must notify us of any changes to such personal information.</p>
+
+    <h3>Information automatically collected</h3>
+    <p><em>In short: Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our Services.</em></p>
+    <p>We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, and information about how and when you use our Services.</p>
+    <p>The information we collect includes:</p>
+    <ul>
+      <li><em>Log and Usage Data.</em> Service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services.</li>
+      <li><em>Device Data.</em> Information about the computer, phone, tablet, or other device you use to access the Services.</li>
+    </ul>
+
+    <h3>Google API</h3>
+    <p>Our use of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2 id="infouse">2. How Do We Process Your Information?</h2>
+    <p><em>In short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes only with your prior explicit consent.</em></p>
+    <p>We process your personal information for a variety of reasons, depending on how you interact with our Services, including:</p>
+    <ul>
+      <li><strong>To send you marketing and promotional communications.</strong> You can opt out of our marketing emails at any time.</li>
+      <li><strong>To deliver targeted advertising to you.</strong> We may process your information to develop and display personalized content and advertising tailored to your interests, location, and more.</li>
+      <li><strong>To save or protect an individual's vital interest.</strong> We may process your information when necessary to prevent harm.</li>
+    </ul>
+
+    <h2 id="legalbases">3. What Legal Bases Do We Rely On To Process Your Information?</h2>
+    <p><em>In short: We only process your personal information when we believe it is necessary and we have a valid legal reason to do so under applicable law.</em></p>
+    <p><strong>If you are located in the EU or UK,</strong> the GDPR and UK GDPR require us to explain the valid legal bases we rely on, including consent, legitimate interests, legal obligations, and vital interests.</p>
+    <p><strong>If you are located in Canada,</strong> we may process your information with your express or implied consent, or in certain exceptional cases permitted under applicable law (e.g. fraud detection, business transactions, legal proceedings, journalistic purposes, or publicly available information).</p>
+
+    <h2 id="whoshare">4. When And With Whom Do We Share Your Personal Information?</h2>
+    <p><em>In short: We may share information in specific situations described in this section and/or with the following categories of third parties.</em></p>
+    <p><strong>Vendors, Consultants, and Other Third-Party Service Providers.</strong> We may share your data with third parties who perform services for us or on our behalf. We have contracts in place designed to safeguard your personal information.</p>
+    <p>The categories of third parties we may share personal information with include:</p>
+    <ul><li>Ad Networks</li></ul>
+    <p>We may also share your information in connection with <strong>Business Transfers</strong> — such as a merger, sale of company assets, financing, or acquisition.</p>
+
+    <h2 id="thirdpartysites">5. What Is Our Stance On Third-Party Websites?</h2>
+    <p><em>In short: We are not responsible for the safety of any information that you share with third parties that we may link to or who advertise on our Services, but are not affiliated with our Services.</em></p>
+    <p>The Services may link to third-party websites, online services, or mobile applications not affiliated with us. We do not guarantee the safety and privacy of data you provide to any third-party websites; you should review their policies directly.</p>
+
+    <h2 id="inforetain">6. How Long Do We Keep Your Information?</h2>
+    <p><em>In short: We keep your information for as long as necessary to fulfill the purposes outlined in this Privacy Notice unless otherwise required by law.</em></p>
+    <p>When we have no ongoing legitimate business need to process your personal information, we will delete or anonymize it, or securely store and isolate it until deletion is possible.</p>
+
+    <h2 id="infosafe">7. How Do We Keep Your Information Safe?</h2>
+    <p><em>In short: We aim to protect your personal information through a system of organizational and technical security measures.</em></p>
+    <p>No electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure. Transmission of personal information to and from our Services is at your own risk.</p>
+
+    <h2 id="infominors">8. Do We Collect Information From Minors?</h2>
+    <p><em>In short: We do not knowingly collect data from or market to children under 18 years of age.</em></p>
+    <p>By using the Services, you represent that you are at least 18 (or the equivalent age in your jurisdiction), or that you are the parent or guardian of a minor and consent to their use of the Services. Contact us at <a href="mailto:pixelcraftedllc@gmail.com">pixelcraftedllc@gmail.com</a> if you believe we've collected data from a minor.</p>
+
+    <h2 id="privacyrights">9. What Are Your Privacy Rights?</h2>
+    <p><em>In short: Depending on your state or region of residence, you may have rights that allow you greater access to and control over your personal information.</em></p>
+    <p>In some regions (EEA, UK, Switzerland, Canada) you have rights including access, rectification, erasure, restriction of processing, data portability, and objection to automated decision-making. Contact us using the details in <a href="#contact">section 13</a> to make a request.</p>
+    <p>If you are in the UK, you may also complain to the Information Commissioner's Office: <a href="http://ico.org.uk/make-a-complaint" target="_blank" rel="noopener">ico.org.uk/make-a-complaint</a> or by phone at 0303 123 1113.</p>
+    <p><strong>Withdrawing your consent:</strong> If we rely on your consent, you may withdraw it at any time by contacting us — this will not affect the lawfulness of processing before withdrawal.</p>
+
+    <h2 id="dnt">10. Controls For Do-Not-Track Features</h2>
+    <p>No uniform technology standard for recognizing Do-Not-Track ("DNT") signals has been finalized, so we do not currently respond to DNT browser signals.</p>
+
+    <h2 id="uslaws">11. Do United States Residents Have Specific Privacy Rights?</h2>
+    <p><em>In short: If you are a resident of certain US states, you may have the right to request access to and details about the personal information we maintain about you, correct inaccuracies, or delete it.</em></p>
+
+    <h3>Categories of Personal Information We Collect</h3>
+    <p>The table below shows the categories of personal information collected in the past twelve months.</p>
+    <table class="policy-table">
+      <thead>
+        <tr><th>Category</th><th>Examples</th><th>Collected</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>A. Identifiers</td><td>Name, alias, address, phone, IP address, email, account name</td><td>No</td></tr>
+        <tr><td>B. Personal info under California Customer Records statute</td><td>Name, contact info, education, employment, financial information</td><td>No</td></tr>
+        <tr><td>C. Protected classification characteristics</td><td>Gender, age, race, national origin, marital status, other demographic data</td><td>No</td></tr>
+        <tr><td>D. Commercial information</td><td>Transaction info, purchase history, financial details, payment information</td><td>Yes</td></tr>
+        <tr><td>E. Biometric information</td><td>Fingerprints, voiceprints</td><td>No</td></tr>
+        <tr><td>F. Internet or network activity</td><td>Browsing/search history, online behavior, interactions with our and other services</td><td>No</td></tr>
+        <tr><td>G. Geolocation data</td><td>Device location</td><td>No</td></tr>
+        <tr><td>H. Audio, electronic, sensory information</td><td>Images, audio, video, call recordings</td><td>No</td></tr>
+        <tr><td>I. Professional/employment information</td><td>Business contact details, job title, work history</td><td>No</td></tr>
+        <tr><td>J. Education information</td><td>Student records, directory information</td><td>No</td></tr>
+        <tr><td>K. Inferences</td><td>Profiles or summaries based on collected information</td><td>No</td></tr>
+        <tr><td>L. Sensitive personal information</td><td>—</td><td>No</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Your Rights</h3>
+    <ul>
+      <li>Right to know whether we are processing your personal data</li>
+      <li>Right to access your personal data</li>
+      <li>Right to correct inaccuracies in your personal data</li>
+      <li>Right to request deletion of your personal data</li>
+      <li>Right to obtain a copy of the personal data you shared with us</li>
+      <li>Right to non-discrimination for exercising your rights</li>
+      <li>Right to opt out of processing used for targeted advertising, sale of data, or certain profiling</li>
+    </ul>
+    <p>To exercise these rights, email <a href="mailto:pixelcraftedllc@gmail.com">pixelcraftedllc@gmail.com</a>. You may designate an authorized agent to make a request on your behalf, subject to verification.</p>
+
+    <h2 id="policyupdates">12. Do We Make Updates To This Notice?</h2>
+    <p><em>In short: Yes, we will update this notice as necessary to stay compliant with relevant laws.</em></p>
+    <p>The updated version will be indicated by a revised "Last updated" date at the top of this notice. We encourage you to review this Privacy Notice periodically.</p>
+
+    <h2 id="contact">13. How Can You Contact Us About This Notice?</h2>
+    <div class="contact-block">
+      <p>If you have questions or comments about this notice, you may email us at <a href="mailto:pixelcraftedllc@gmail.com">pixelcraftedllc@gmail.com</a> or contact us by post at:</p>
+      <p>Pixel Crafted LLC<br>2692 East Wake Forest Lane<br>St. George, UT 84790<br>United States</p>
+    </div>
+
+    <h2 id="request">14. How Can You Review, Update, Or Delete The Data We Collect From You?</h2>
+    <p>Based on the applicable laws of your country or state of residence, you may have the right to request access to, details about, correction of, or deletion of your personal information. To make such a request, contact <a href="mailto:pixelcraftedllc@gmail.com">pixelcraftedllc@gmail.com</a>.</p>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="foot-logo">
+      <div class="logo-mark">
+        <div class="sq p" style="background:var(--orange); color:var(--cream);">P</div>
+        <div class="sq c" style="background:var(--teal); color:var(--cream);">C</div>
+      </div>
+      <div class="foot-logo-text">
+        <div class="logo-text">PIXEL<span style="color:var(--orange);">CRAFTED</span></div>
+        <div class="foot-tagline">Pixel-Perfect Design</div>
+      </div>
+    </div>
+    <p>&copy; <span id="year"></span> Pixel Crafted. All rights reserved. &middot; <a href="index.html">Home</a></p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

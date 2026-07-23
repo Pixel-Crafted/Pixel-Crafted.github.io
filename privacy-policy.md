@@ -17,7 +17,7 @@ This Privacy Notice for Pixel Crafted LLC ("**we**," "**us**," or "**our**"), de
 
 *   Engage with us in other related ways, including any marketing or events
 
-**Questions or concerns?** Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [maryhodges326@gmail.com](mailto:maryhodges326@gmail.com).
+**Questions or concerns?** Reading this Privacy Notice will help you understand your privacy rights and choices. We are responsible for making decisions about how your personal information is processed. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at [pixelcraftedllc@gmail.com](mailto:pixelcraftedllc@gmail.com).
 
   
 
@@ -62,7 +62,7 @@ SUMMARY OF KEY POINTS
 
   
 
-**How do you exercise your rights?** The easiest way to exercise your rights is by contacting maryhodges326@gmail.com. We will consider and act upon any request in accordance with applicable data protection laws.
+**How do you exercise your rights?** The easiest way to exercise your rights is by contacting pixelcraftedllc@gmail.com. We will consider and act upon any request in accordance with applicable data protection laws.
 
   
 
@@ -336,7 +336,7 @@ We have implemented appropriate and reasonable technical and organizational secu
 
   
 
-We do not knowingly collect, solicit data from, or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction, nor do we knowingly sell such personal information. By using the Services, you represent that you are at least 18 or the equivalent age as specified by law in your jurisdiction or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age or the equivalent age as specified by law in your jurisdiction has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18 or the equivalent age as specified by law in your jurisdiction, please contact us at [maryhodges326@gmail.com](mailto:maryhodges326@gmail.com).
+We do not knowingly collect, solicit data from, or market to children under 18 years of age or the equivalent age as specified by law in your jurisdiction, nor do we knowingly sell such personal information. By using the Services, you represent that you are at least 18 or the equivalent age as specified by law in your jurisdiction or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age or the equivalent age as specified by law in your jurisdiction has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18 or the equivalent age as specified by law in your jurisdiction, please contact us at [pixelcraftedllc@gmail.com](mailto:pixelcraftedllc@gmail.com).
 
   
 
@@ -363,7 +363,7 @@ If you are located in the UK and are unhappy with how we have handled your perso
 
 How to contact us:
 
-*   **Email:** [maryhodges326@gmail.com](mailto:maryhodges326@gmail.com)  
+*   **Email:** [pixelcraftedllc@gmail.com](mailto:pixelcraftedllc@gmail.com)  
     
 
 *   **Post:** See "[HOW CAN YOU CONTACT US ABOUT THIS NOTICE?](#contact)"  
@@ -406,7 +406,7 @@ However, please note that this will not affect the lawfulness of the processing 
 
   
 
-If you have questions or comments about your privacy rights, you may email us at [maryhodges326@gmail.com](mailto:maryhodges326@gmail.com).
+If you have questions or comments about your privacy rights, you may email us at [pixelcraftedllc@gmail.com](mailto:pixelcraftedllc@gmail.com).
 
   
 
@@ -646,7 +646,7 @@ Depending upon the state where you live, you may also have the following rights:
 
 ### How to Exercise Your Rights
 
-**To exercise these rights, you can contact us by emailing us at [maryhodges326@gmail.com](mailto:maryhodges326@gmail.com), or by referring to the contact details at the bottom of this document.
+**To exercise these rights, you can contact us by emailing us at [pixelcraftedllc@gmail.com](mailto:pixelcraftedllc@gmail.com), or by referring to the contact details at the bottom of this document.
 
   
 
@@ -663,7 +663,7 @@ If you submit the request through an authorized agent, we may need to collect ad
 
 ### Appeals
 
-**Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at [maryhodges326@gmail.com](mailto:maryhodges326@gmail.com). We will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.
+**Under certain US state data protection laws, if we decline to take action regarding your request, you may appeal our decision by emailing us at [pixelcraftedllc@gmail.com](mailto:pixelcraftedllc@gmail.com). We will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal is denied, you may submit a complaint to your state attorney general.
 
   
 
@@ -685,7 +685,7 @@ We may update this Privacy Notice from time to time. The updated version will be
 13\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
 ----------------------------------------------
 
-**If you have questions or comments about this notice, you may email us at [maryhodges326@gmail.com](mailto:maryhodges326@gmail.com) or contact us by post at:
+**If you have questions or comments about this notice, you may email us at [pixelcraftedllc@gmail.com](mailto:pixelcraftedllc@gmail.com) or contact us by post at:
 
   
 
@@ -704,4 +704,4 @@ United States
 14\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 ------------------------------------------------------------------------
 
-**Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please contact maryhodges326@gmail.com
+**Based on the applicable laws of your country or state of residence in the US, you may have the right to request access to the personal information we collect from you, details about how we have processed it, correct inaccuracies, or delete your personal information. You may also have the right to withdraw your consent to our processing of your personal information. These rights may be limited in some circumstances by applicable law. To request to review, update, or delete your personal information, please contact pixelcraftedllc@gmail.com
